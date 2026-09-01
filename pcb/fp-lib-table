@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RGBW_LED")(type "KiCad")(uri "${KIPRJMOD}/parts/RGBW_LED.pretty")(options "")(descr ""))
+  (lib (name "PT01_B120D_B503")(type "KiCad")(uri "${KIPRJMOD}/parts/PT01_B120D_B503")(options "")(descr ""))
+)
