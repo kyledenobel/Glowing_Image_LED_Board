@@ -2,4 +2,8 @@
   (version 7)
   (lib (name "RGBW_LED")(type "KiCad")(uri "${KIPRJMOD}/parts/RGBW_LED.kicad_sym")(options "")(descr ""))
   (lib (name "PT01-B120D-B503")(type "KiCad")(uri "${KIPRJMOD}/parts/PT01_B120D_B503/PT01-B120D-B503.kicad_sym")(options "")(descr ""))
+  (lib (name "USB-C")(type "KiCad")(uri "${KIPRJMOD}/parts/10164359_00011LF/10164359-00011LF.kicad_sym")(options "")(descr ""))
+  (lib (name "SRR6038100Y")(type "KiCad")(uri "${KIPRJMOD}/parts/SRR6038100Y/SRR6038-100Y.kicad_sym")(options "")(descr ""))
+  (lib (name "UCD1H220MCL1GS")(type "KiCad")(uri "${KIPRJMOD}/parts/UCD1H220MCL1GS/2026-11-13_03-17-25.kicad_sym")(options "")(descr ""))
+  (lib (name "CLX6E_FKC_CH1M1D1BB7C3D3")(type "KiCad")(uri "${KIPRJMOD}/parts/CLX6E_FKC_CH1M1D1BB7C3D3/2026-11-13_04-31-52.kicad_sym")(options "")(descr ""))
 )
