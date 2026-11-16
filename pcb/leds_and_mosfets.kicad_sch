@@ -1565,9 +1565,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "6 = Blue\n5 = Green\n4 = Red"
+	(text "6 = Blue\n5 = Green\n4 = Red\n\nBlue Voltage drop = 2.8 V @ 15mA\nGreen Voltage drop = 2.9 V @ 15mA\nRed Voltage drop = 2.1 @ 20mA\n"
 		(exclude_from_sim no)
-		(at 161.29 27.94 0)
+		(at 247.65 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1576,26 +1576,36 @@
 		(uuid "ea9c14db-c21c-480e-86eb-e7a8c90c6d3f")
 	)
 	(junction
-		(at 50.8 140.97)
+		(at 184.15 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "52c55b84-2d79-4984-adae-067692bde77b")
+		(uuid "1f81e593-e7e9-48e8-bafd-b6a1ff7c486c")
 	)
 	(junction
-		(at 50.8 133.35)
+		(at 124.46 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ce6906a7-99fa-424b-831f-18df81441d04")
+		(uuid "e2aec3ff-92f9-4328-bb74-6620bb8224b1")
 	)
 	(wire
 		(pts
-			(xy 199.39 128.27) (xy 199.39 133.35)
+			(xy 130.81 121.92) (xy 130.81 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "06fd7fd3-0899-4ecb-82a8-b310c1abfe36")
+		(uuid "001b0df6-af69-4839-9558-89b93733dc4f")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "028047cb-b2f9-4a53-bdc3-14c197d685d3")
 	)
 	(wire
 		(pts
@@ -1626,16 +1636,6 @@
 			(type default)
 		)
 		(uuid "0a848607-3997-4b4e-96ea-1857eecae79e")
-	)
-	(wire
-		(pts
-			(xy 189.23 146.05) (xy 189.23 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e1bf3e5-3154-4599-ab18-d54669a9a90d")
 	)
 	(wire
 		(pts
@@ -1679,33 +1679,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 148.59) (xy 153.67 148.59)
+			(xy 172.72 148.59) (xy 176.53 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "167935a1-da71-4baa-b186-77aed8f69fcd")
-	)
-	(wire
-		(pts
-			(xy 121.92 140.97) (xy 121.92 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1788c57c-6166-429f-b5e5-daf4a6f6db5e")
-	)
-	(wire
-		(pts
-			(xy 86.36 128.27) (xy 86.36 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19755706-2b9c-4ccb-87d8-07059bdeebd7")
 	)
 	(wire
 		(pts
@@ -1739,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 128.27) (xy 50.8 133.35)
+			(xy 68.58 128.27) (xy 68.58 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1789,17 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 148.59) (xy 114.3 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3869f8bb-fb0a-4caf-a6dc-120e6b6ef34d")
-	)
-	(wire
-		(pts
-			(xy 76.2 148.59) (xy 78.74 148.59)
+			(xy 113.03 148.59) (xy 116.84 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 148.59) (xy 43.18 148.59)
+			(xy 54.61 148.59) (xy 60.96 148.59)
 		)
 		(stroke
 			(width 0)
@@ -1829,13 +1799,33 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 140.97) (xy 86.36 143.51)
+			(xy 130.81 133.35) (xy 130.81 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ed65048-a13b-4f70-9c0e-353d5451657d")
+		(uuid "4c520cc7-104f-40a4-a2ee-4a285c20fc5d")
+	)
+	(wire
+		(pts
+			(xy 190.5 134.62) (xy 190.5 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500a8bb2-8ee4-4992-b708-6064cf6ee4ed")
+	)
+	(wire
+		(pts
+			(xy 114.3 125.73) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50901c00-30ce-43e9-b529-e0c4f35f6e0b")
 	)
 	(wire
 		(pts
@@ -1869,17 +1859,17 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 148.59) (xy 191.77 148.59)
+			(xy 190.5 121.92) (xy 190.5 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7028e870-8d50-4b81-afa0-b4effd8fdd9b")
+		(uuid "6f1e9077-6e46-41fd-9f28-30c161d462e6")
 	)
 	(wire
 		(pts
-			(xy 161.29 128.27) (xy 161.29 133.35)
+			(xy 173.99 125.73) (xy 173.99 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1889,13 +1879,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 140.97) (xy 54.61 140.97)
+			(xy 173.99 134.62) (xy 184.15 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75cec528-cc37-4f7c-93aa-b257e3f939d0")
+		(uuid "7ca8a9e1-b731-41cd-a851-4b16560b6f50")
 	)
 	(wire
 		(pts
@@ -1909,23 +1899,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 133.35) (xy 50.8 133.35)
+			(xy 124.46 142.24) (xy 124.46 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83b1f9a1-ca43-4bf3-bb98-1a357d54791c")
+		(uuid "84aaf321-5e61-4e6b-83af-b1505a895df0")
 	)
 	(wire
 		(pts
-			(xy 76.2 146.05) (xy 76.2 148.59)
+			(xy 184.15 134.62) (xy 190.5 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8524354a-205a-4a4f-a790-d2f550996fe3")
+		(uuid "8d23bb0f-24fc-4e06-af52-5e8ddf065285")
 	)
 	(wire
 		(pts
@@ -1939,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 140.97) (xy 50.8 143.51)
+			(xy 68.58 140.97) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 140.97) (xy 161.29 143.51)
+			(xy 184.15 142.24) (xy 184.15 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2009,26 +1999,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 128.27) (xy 121.92 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e6f28d-62b9-4b35-bce3-77ec11d07daf")
-	)
-	(wire
-		(pts
-			(xy 199.39 140.97) (xy 199.39 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1dbdc74-bba7-49f9-8a08-f07aafecf234")
-	)
-	(wire
-		(pts
 			(xy 193.04 93.98) (xy 200.66 93.98)
 		)
 		(stroke
@@ -2059,16 +2029,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 140.97) (xy 50.8 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6420d18-768a-4d8b-96ca-a950fd33609e")
-	)
-	(wire
-		(pts
 			(xy 80.01 46.99) (xy 85.09 46.99)
 		)
 		(stroke
@@ -2076,16 +2036,6 @@
 			(type default)
 		)
 		(uuid "b81918e0-5734-4c2c-8e48-240567ac0be2")
-	)
-	(wire
-		(pts
-			(xy 50.8 133.35) (xy 54.61 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb43302e-fb88-47c6-ba1a-408d2c68546b")
 	)
 	(wire
 		(pts
@@ -2199,6 +2149,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7731bea-46cd-45fe-a0d8-afa9b12c8323")
+	)
+	(wire
+		(pts
 			(xy 80.01 86.36) (xy 85.09 86.36)
 		)
 		(stroke
@@ -2209,13 +2169,13 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 146.05) (xy 151.13 148.59)
+			(xy 124.46 133.35) (xy 130.81 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eab54ced-1c8f-4690-a25a-5d7d9de64b4c")
+		(uuid "ed3bf65a-2efd-4719-9e18-96383dafe0d8")
 	)
 	(wire
 		(pts
@@ -2249,16 +2209,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 146.05) (xy 111.76 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd464f2f-d664-4c1d-a60f-eff14b298601")
-	)
-	(wire
-		(pts
 			(xy 80.01 101.6) (xy 85.09 101.6)
 		)
 		(stroke
@@ -2266,6 +2216,16 @@
 			(type default)
 		)
 		(uuid "fe643afe-5759-4c6f-be67-f1d9d70a6f75")
+	)
+	(label "3 Blue LEDs"
+		(at 190.5 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0021fe11-4663-45f6-a3b9-7b3988f8f923")
 	)
 	(label "3 Green LEDs"
 		(at 80.01 93.98 180)
@@ -2288,7 +2248,7 @@
 		(uuid "5a2da781-6e40-45b1-b2d3-e8a60da1192e")
 	)
 	(label "4 Green LEDs"
-		(at 86.36 128.27 180)
+		(at 114.3 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,16 +2267,6 @@
 		)
 		(uuid "6993a99b-fe1b-474a-bb8c-206282078615")
 	)
-	(label "3 Green LEDs"
-		(at 121.92 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "928d7f20-05d7-4038-a65c-db9c682f2fa6")
-	)
 	(label "Red LEDs"
 		(at 80.01 62.23 180)
 		(effects
@@ -2328,7 +2278,7 @@
 		(uuid "97e59985-8a64-4a29-83f2-451b420ae98d")
 	)
 	(label "4 Blue LEDs"
-		(at 161.29 128.27 180)
+		(at 173.99 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2338,7 +2288,7 @@
 		(uuid "a3822ebd-9ee6-4caa-ae28-221d5d12ad3f")
 	)
 	(label "Red LEDs"
-		(at 50.8 128.27 180)
+		(at 68.58 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2367,15 +2317,15 @@
 		)
 		(uuid "e9e1a3d0-a28d-4d9c-ae03-cd471d744b33")
 	)
-	(label "3 Blue LEDs"
-		(at 199.39 128.27 180)
+	(label "3 Green LEDs"
+		(at 130.81 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f410e36d-2106-4348-8b69-e1551a86764b")
+		(uuid "f1f8feda-6cd3-4206-893b-954627e19d73")
 	)
 	(label "3 Blue LEDs"
 		(at 80.01 86.36 180)
@@ -2397,20 +2347,9 @@
 		)
 		(uuid "f5e3bf51-a4af-4ca7-95b6-58fdd8bdb650")
 	)
-	(hierarchical_label "Green Control"
-		(shape input)
-		(at 111.76 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3e2cbb4e-64a9-45fb-a01b-0bf54030787d")
-	)
 	(hierarchical_label "Blue Control"
 		(shape input)
-		(at 151.13 146.05 180)
+		(at 172.72 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2421,7 +2360,7 @@
 	)
 	(hierarchical_label "Green Control"
 		(shape input)
-		(at 76.2 146.05 180)
+		(at 113.03 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,7 +2371,7 @@
 	)
 	(hierarchical_label "RED Control"
 		(shape input)
-		(at 36.83 148.59 180)
+		(at 54.61 148.59 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2440,17 +2379,6 @@
 			(justify right)
 		)
 		(uuid "9e4bc2be-e585-4d0a-a014-b946b69fc548")
-	)
-	(hierarchical_label "Blue Control"
-		(shape input)
-		(at 189.23 146.05 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d0d087bf-1fdc-4755-9f48-4f9f31fb2825")
 	)
 	(symbol
 		(lib_id "CLX6E_FKC_CH1M1D1BB7C3D3:CLX6E-FKC-CH1M1D1BB7C3D3")
@@ -2536,73 +2464,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "153639f3-6292-4d78-900b-fb3516af5a80")
-		(property "Reference" "#PWR017"
-			(at 121.92 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1710fbcb-00e2-4487-ac92-d1bf103b2c34")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 161.29 153.67 0)
+		(at 184.15 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2611,7 +2473,7 @@
 		(fields_autoplaced yes)
 		(uuid "1eb355e9-b2fb-43f9-92b5-cfa222d2bee6")
 		(property "Reference" "#PWR024"
-			(at 161.29 160.02 0)
+			(at 184.15 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2620,7 +2482,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 158.75 0)
+			(at 184.15 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2628,7 +2490,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 153.67 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2499,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 153.67 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2508,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 153.67 0)
+			(at 184.15 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2668,7 +2530,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 158.75 148.59 0)
+		(at 181.61 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2677,7 +2539,7 @@
 		(fields_autoplaced yes)
 		(uuid "20c1be82-9aef-4d35-bc33-0b4556b8102d")
 		(property "Reference" "Q5"
-			(at 165.1 147.3199 0)
+			(at 187.96 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2548,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 165.1 149.8599 0)
+			(at 187.96 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2557,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 163.83 146.05 0)
+			(at 186.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2566,7 @@
 			)
 		)
 		(property "Datasheet" "http://digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2302S/26112886"
-			(at 158.75 148.59 0)
+			(at 181.61 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2575,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 158.75 148.59 0)
+			(at 181.61 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +2603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 153.67 0)
+		(at 124.46 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2750,7 +2612,7 @@
 		(fields_autoplaced yes)
 		(uuid "36b71cb0-0148-430a-bd0c-4b7bcafd2a3f")
 		(property "Reference" "#PWR015"
-			(at 86.36 160.02 0)
+			(at 124.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +2621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 158.75 0)
+			(at 124.46 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +2629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 153.67 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 153.67 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2785,7 +2647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 153.67 0)
+			(at 124.46 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,76 +2662,6 @@
 			(project "glowing_image_led_board"
 				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
 					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43c2d71d-80f9-4d5e-b8cb-206abff6e409")
-		(property "Reference" "R6"
-			(at 57.15 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "226"
-			(at 57.15 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.832 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2260F/10233913"
-			(at 54.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73f4a90a-b918-4f59-9b4e-42087e999cbd")
-		)
-		(pin "2"
-			(uuid "48e6d19a-b8b8-4f99-8491-1fd2e210b5cc")
-		)
-		(instances
-			(project ""
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2941,78 +2733,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 161.29 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50168f07-a803-4d97-835f-a44ad215a5cc")
-		(property "Reference" "R11"
-			(at 163.83 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "250"
-			(at 163.83 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 159.512 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2490F/10234026"
-			(at 161.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 161.29 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8112e71-fdd6-422a-8160-340ba0278ca5")
-		)
-		(pin "2"
-			(uuid "194a8972-12e5-485d-be04-35f8c3249285")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 48.26 148.59 0)
+		(at 66.04 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3021,7 +2743,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c9f93bb-52c7-416b-b28d-e7ae5bf3b90e")
 		(property "Reference" "Q1"
-			(at 54.61 147.3199 0)
+			(at 72.39 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,7 +2752,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 54.61 149.8599 0)
+			(at 72.39 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3039,7 +2761,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 53.34 146.05 0)
+			(at 71.12 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +2770,7 @@
 			)
 		)
 		(property "Datasheet" "http://digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2302S/26112886"
-			(at 48.26 148.59 0)
+			(at 66.04 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +2779,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 48.26 148.59 0)
+			(at 66.04 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3231,78 +2953,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 86.36 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72e210f2-a1f2-4ea2-91e4-58af26439fe7")
-		(property "Reference" "R8"
-			(at 88.9 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "226"
-			(at 88.9 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 84.582 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2260F/10233913"
-			(at 86.36 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bbf0f8ec-1805-42e4-928b-b80c3209661d")
-		)
-		(pin "2"
-			(uuid "30af1ea2-7e39-4bcd-a1b9-0035846b25ca")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 50.8 153.67 0)
+		(at 68.58 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3311,7 +2963,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ab1ea97-96ed-4efb-87b1-bd93b58ad137")
 		(property "Reference" "#PWR012"
-			(at 50.8 160.02 0)
+			(at 68.58 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,7 +2972,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 158.75 0)
+			(at 68.58 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3328,7 +2980,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 153.67 0)
+			(at 68.58 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,7 +2989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 153.67 0)
+			(at 68.58 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3346,7 +2998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 153.67 0)
+			(at 68.58 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,79 +3160,6 @@
 			(project "glowing_image_led_board"
 				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
 					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 119.38 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b89cec4-d7f0-4eda-ad47-4cd53e8e3fae")
-		(property "Reference" "Q3"
-			(at 125.73 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 125.73 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 124.46 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2302S/26112886"
-			(at 119.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 119.38 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a0781234-8efe-40ee-803f-d2453ea0b938")
-		)
-		(pin "2"
-			(uuid "f8b5bd6f-567e-4eda-950b-3a5aea5108ab")
-		)
-		(pin "3"
-			(uuid "5213ed99-425a-4e2f-aceb-b157ee0b2803")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3816,75 +3395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a47a8eca-b8d7-4abe-9204-4d42561ff89c")
-		(property "Reference" "R7"
-			(at 40.64 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "226"
-			(at 40.64 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 45.212 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2260F/10233913"
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8bf4b83-d88b-4baf-89ef-a70f32e751f5")
-		)
-		(pin "2"
-			(uuid "838b0b80-8b78-4bbf-8e53-82ce5650b408")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CLX6E_FKC_CH1M1D1BB7C3D3:CLX6E-FKC-CH1M1D1BB7C3D3")
 		(at 85.09 46.99 0)
 		(unit 1)
@@ -4026,6 +3536,76 @@
 			(project "glowing_image_led_board"
 				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae6aedcd-3974-488d-b01a-22384bbc7eb9")
+		(property "Reference" "R8"
+			(at 127 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "76.8"
+			(at 127 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 122.682 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD76R8F/10233948?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBWAFgGYQBdfABwBcoQBlFgJwEsA7AOYgAvvjBl4IJJDRY8hEiBoBOGjBUNmbSJx4DhYkDAAMADgpSZcnPiKRSAdjIA6MwAIA8gAsAtpi0QVnYAVX5eFk9kAFlsVEwAV25sUXwAWjhoaSgeBIV7Ukt6IzTNLJlc-KUIYqNJLN4AE3Y0sBMIbXYQfBYATyYU3XikEREgA"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0ba4387-c00f-4c17-b515-a18d136928b8")
+		)
+		(pin "2"
+			(uuid "0ef335aa-93d4-4332-8e8a-56d72cf5829b")
+		)
+		(instances
+			(project "glowing_image_led_board"
+				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -4179,6 +3759,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 184.15 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c729c73b-9c3f-43cb-8172-1fdaec604ab6")
+		(property "Reference" "R10"
+			(at 186.69 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "84.5"
+			(at 186.69 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 182.372 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD84R5F/10234665"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 184.15 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "688645c9-6f93-4e53-bab0-dc2419a95d3d")
+		)
+		(pin "2"
+			(uuid "24b0f567-20a9-4209-b987-c96b9a9af0f1")
+		)
+		(instances
+			(project "glowing_image_led_board"
+				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CLX6E_FKC_CH1M1D1BB7C3D3:CLX6E-FKC-CH1M1D1BB7C3D3")
 		(at 129.54 86.36 0)
 		(unit 1)
@@ -4261,83 +3911,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 199.39 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d46a905f-8531-4eb9-8030-4690d53f082c")
-		(property "Reference" "#PWR020"
-			(at 199.39 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f11d47cf-fced-4538-805e-763dd81969fb")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 121.92 137.16 0)
+		(at 190.5 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e351458a-32c0-49a9-9b29-bc4bbc16d6dc")
+		(uuid "e32ec306-b276-466c-8633-a5cc766d071e")
 		(property "Reference" "R9"
-			(at 124.46 135.8899 0)
+			(at 193.04 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,8 +3929,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "210"
-			(at 124.46 138.4299 0)
+		(property "Value" "95.3"
+			(at 193.04 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,7 +3939,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 120.142 137.16 90)
+			(at 188.722 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4363,8 +3947,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2100F/10234719"
-			(at 121.92 137.16 0)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD95R3F/10233968"
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4373,7 +3957,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 137.16 0)
+			(at 190.5 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4382,15 +3966,85 @@
 			)
 		)
 		(pin "1"
-			(uuid "a9cf8f30-ecec-4f45-a840-ef8cbd5e91d5")
+			(uuid "3013f6c4-4ee9-4a11-896f-8b5cb14529dd")
 		)
 		(pin "2"
-			(uuid "da86df8f-c8d1-4ce1-a67a-73bd6fa65003")
+			(uuid "70e1890a-9921-4b4b-906c-ad02a96bff6e")
 		)
 		(instances
 			(project "glowing_image_led_board"
 				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 68.58 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3775602-796b-4aea-9db1-4e8c35b99762")
+		(property "Reference" "R6"
+			(at 71.12 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "113"
+			(at 71.12 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 66.802 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD1130F/10234352"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 68.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b7dbe08-ed74-40c3-ad28-e4c821cb9adb")
+		)
+		(pin "2"
+			(uuid "7b5a71f2-0701-43c4-9f5a-c8de73f73f45")
+		)
+		(instances
+			(project ""
+				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -4609,8 +4263,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 130.81 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb7b9648-6c81-452a-9fc4-3ab725f0c6eb")
+		(property "Reference" "R7"
+			(at 133.35 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "97.6"
+			(at 133.35 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 129.032 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD97R6F/10228577?s=N4IgjCBcoExaBjKAzAhgGwM4FMA0IB7KAbXADYBWAFgGYQBdfABwBcoQBlFgJwEsA7AOYgAvvjBl4IJJDRY8hEiBoBOGjBUNmbSJx4DhYkDAAMADgpSZcnPiKRSKgOwA6MgAIA8gAsAtpi0QVnYAVX5eFk9kAFlsVEwAV25sUXwAWjhoaSgeBIV7Ukt6IzTNLJlc-KUIYqNJLN4AE3Y0sBMIbXYQfBYATyYU3XikEREgA"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4316ad7c-d318-412b-b7cf-57208d91f95e")
+		)
+		(pin "2"
+			(uuid "be16936e-82ec-47e7-945a-d345d0a65942")
+		)
+		(instances
+			(project ""
+				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 83.82 148.59 0)
+		(at 121.92 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4619,7 +4343,7 @@
 		(fields_autoplaced yes)
 		(uuid "f09f8229-d192-4614-9a6a-3cb63907353e")
 		(property "Reference" "Q2"
-			(at 90.17 147.3199 0)
+			(at 128.27 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,7 +4352,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 90.17 149.8599 0)
+			(at 128.27 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,7 +4361,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 88.9 146.05 0)
+			(at 127 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4370,7 @@
 			)
 		)
 		(property "Datasheet" "http://digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2302S/26112886"
-			(at 83.82 148.59 0)
+			(at 121.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4379,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 83.82 148.59 0)
+			(at 121.92 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4758,149 +4482,6 @@
 			(project "glowing_image_led_board"
 				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
 					(reference "LED5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 199.39 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5d23b26-ed73-47cb-b968-959bd3a9ff09")
-		(property "Reference" "R10"
-			(at 201.93 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "226"
-			(at 201.93 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 197.612 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H2ATTD2260F/10233913"
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 199.39 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19672a79-f92f-4d53-983d-ec8eb08607dd")
-		)
-		(pin "2"
-			(uuid "b1c12037-97ff-4787-9011-7d9b6f9a6a7c")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 196.85 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fdd0e2aa-44ee-4ff6-846f-9a3179b6e5f5")
-		(property "Reference" "Q4"
-			(at 203.2 147.3199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS_GSD"
-			(at 203.2 149.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 201.93 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://digikey.com/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2302S/26112886"
-			(at 196.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
-			(at 196.85 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0d76678-0c52-48b8-88aa-b304eea49ba9")
-		)
-		(pin "2"
-			(uuid "a555fb41-ab3c-4bdf-95a2-9e05708a430e")
-		)
-		(pin "3"
-			(uuid "c257dff7-53eb-42ec-8a7e-a8e9630ef2d7")
-		)
-		(instances
-			(project "glowing_image_led_board"
-				(path "/def2acdf-abb8-4069-a6e9-c532c2ad6062/ddc283c9-b9a7-4ead-af8b-f11afdc0ed7f"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

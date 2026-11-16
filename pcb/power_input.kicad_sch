@@ -639,16 +639,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SRR6038100Y_Bourns.pdf"
+			(property "Description" "Inductor Power Shielded Wirewound 10uH 30% 100KHz 8.8Q-Factor Ferrite 2A 0.038Ohm DCR T/R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -658,7 +649,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Inductor Power Shielded Wirewound 10uH 30% 100KHz 8.8Q-Factor Ferrite 2A 0.038Ohm DCR T/R"
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/SRR6038100Y_Bourns.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1209,16 +1200,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET_URL" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c_connector_cable.pdf"
+			(property "Description" "USB Type C Receptacle SMT Single Row 6Pin"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1228,7 +1210,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "USB Type C Receptacle SMT Single Row 6Pin"
+			(property "DATASHEET_URL" "https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io_usb_type_c_connector_cable.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2858,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
 			(at 229.87 81.28 0)
 			(effects
 				(font
@@ -3196,7 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GRM21BR61E106KA73K/4905532"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
 			(at 161.29 81.28 0)
 			(effects
 				(font

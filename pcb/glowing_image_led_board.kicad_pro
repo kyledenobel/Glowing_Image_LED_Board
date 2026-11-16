@@ -619,16 +619,12 @@
       "LEDs and MOSFETs"
     ],
     [
-      "63e3d93d-7b1f-4551-8c57-08c5392109f1",
-      "Triangle Wave Generator"
-    ],
-    [
-      "9c0aa1fe-6704-45d9-867d-adadd3b23101",
-      "Oscillator Or Potentiometer Input"
-    ],
-    [
       "3e332d87-95a5-40c4-9377-e2039b53d404",
       "Power Input"
+    ],
+    [
+      "b8f1e642-1b46-440f-adbf-ebdc81626633",
+      "LED Control"
     ]
   ],
   "text_variables": {}
