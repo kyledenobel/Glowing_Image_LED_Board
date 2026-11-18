@@ -2831,7 +2831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 230.8352 85.09 0)
 			(effects
 				(font
@@ -2840,7 +2840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK212BBJ106KG-T/2714163"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/murata-electronics/GCM32ER71E106KA57L/1641672?s=N4IgTCBcDaIOIGECyBmMBRASgdgIztwAYA2AaQEEBWbEAXQBoRKpQAHKXR19yIwgX35A"
 			(at 229.87 81.28 0)
 			(effects
 				(font
